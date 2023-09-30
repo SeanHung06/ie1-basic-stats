@@ -8,4 +8,7 @@ public class MinMaxCalculation {
         }
         System.out.println("Max: " + max);
     }
+    
+
+
 }
