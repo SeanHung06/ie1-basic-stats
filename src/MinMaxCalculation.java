@@ -8,4 +8,15 @@ public class MinMaxCalculation {
         }
         System.out.println("Max: " + max);
     }
+    public static void ComputeMin(double[] numbers) {
+        double min = numbers[0];
+        for (double num : numbers) {
+            if (num < min) {
+                min = num;
+            }
+        }
+        System.out.println("Min: " + min);
+    }
+
+
 }
